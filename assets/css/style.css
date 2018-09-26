@@ -261,15 +261,23 @@ input[type=submit] hover {
     .containertop {
         width:100%;
     }
+    .infoText {
+        padding-right:12.5%;
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width:768px) {
 .information {
-    width:95%;
+    width:100%;
     /* min-height: calc(100vh - 50px); */
     font-size: 2vw;
-    margin: 0px 0px 20px 17.5px;
+    margin-right: 10%;
 
+}
+.infoText {
+    padding-right:10%;
+    font-size: 2vw;
 }
 .containertop {
     width:95%;
@@ -279,9 +287,11 @@ input[type=submit] hover {
 
 @media screen and (max-width:640px) {
     .information {
-        width:600px;
-        font-size:30px;
-        margin-top:5%
+        width:95%;
+        font-size:125%;
+        margin-top:5%;
+        margin-left: 0%;
+        font-size: 2vw;
     }
     .containertop {
         width:100%;
@@ -291,6 +301,9 @@ input[type=submit] hover {
         width:100%;
         float: none;
         text-align:center;
+    }
+    .infoText {
+        font-size: 2.5vw;
     }
 
     nav {
